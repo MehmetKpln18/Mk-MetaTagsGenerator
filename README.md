@@ -29,7 +29,7 @@ composer require mehmetkpln18/meta-tags-generator
 ### Manuel Kurulum
 
 ```php
-require_once 'path/to/MetaTagsGenerator.php';
+require_once 'path/to/class.MkMetaTagsGenerator.php';
 ```
 
 ## 🛠️ Temel Kullanım
@@ -38,7 +38,7 @@ require_once 'path/to/MetaTagsGenerator.php';
 
 ```php
 <?php
-require_once 'MetaTagsGenerator.php';
+require_once 'class.MkMetaTagsGenerator.php';
 
 // Meta tag generator'ı başlat
 $meta = new MetaTagsGenerator();
@@ -281,7 +281,7 @@ $meta->addMetaTag('meta', ['name' => 'custom', 'content' => 'value'], 1); // Yü
 
 ```php
 <?php
-require_once 'MetaTagsGenerator.php';
+require_once 'class.MkMetaTagsGenerator.php';
 
 $meta = new MetaTagsGenerator();
 
