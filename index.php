@@ -1,5 +1,5 @@
 <?php
-require_once 'MetaTagsGenerator.php';
+require_once 'class.MkMetaTagsGenerator.php';
 
 $meta = new MetaTagsGenerator();
 
