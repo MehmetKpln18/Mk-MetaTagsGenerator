@@ -23,7 +23,7 @@
 ### Composer ile Kurulum (Önerilen)
 
 ```bash
-composer require mehmetkpln18/meta-tags-generator
+composer require mehmetkpln18/Mk-MetaTagsGenerator
 ```
 
 ### Manuel Kurulum
